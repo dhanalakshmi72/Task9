@@ -1,0 +1,101 @@
+.navbar {
+  padding: 10px 0;
+  background-color: rgb(216, 24, 24);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  font-size:2rem;
+  text-decoration: none;
+  color: rgb(146, 160, 219);
+  position: relative;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #00a0e6;
+}
+
+.navbar a:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #00a0e6;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s;
+}
+
+.navbar a:hover:before {
+  transform: scaleX(1);
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+/* Header.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+  color: white;
+  padding: 10px;
+  z-index: 2; /* Ensure navbar appears above other content */
+}
+/* Header.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+}
+
+.company-name {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FFD700; /* Change color on hover */
+}
+
+
