@@ -8,12 +8,13 @@ function Header() {
     <header>
       <nav className="navbar">
       <div className="nav-content">
-        <Link to="/" className="nav-logo">Meditation App</Link>
+        
         <ul className="nav-links">
+          <li className="first-child">Books<span>Cart</span></li>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/signin">Sign In</Link></li>
+          <li><Link to="/collections">View Collections</Link></li>
+          <li><Link to="/customer-reviews">Customer Reviews</Link></li>
+          <li><Link to="/signin">Sign In</Link></li> 
         </ul>
       </div>
     </nav>

@@ -1,81 +1,44 @@
-/* MainContent.css */
-.main-content {
-  text-align: center;
-  z-index: 1;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  
+/* HomePage.css */
+
+.home-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  align-items: center; /* Vertically center the content */
+  height: 100vh;
+  margin-right:80px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-image: url('../images/MainContent.jpg');
+  text-align: center;
 }
-
-.content-image-container {
-  position: relative;
-  max-width: 100%;
+.content {
+  padding: 20px;
+  max-width: 50%; /* Adjust as needed */
+  text-align: center;
+  margin-top:0px; /* Adjust this value to move the content higher */
 }
-
-.content-image {
-  max-width: 100%;
-  height: auto;
-  opacity: 0.8;
-}
-
-.image-overlay {
-  position: relative;
-}
-
-.header,
-.footer {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  
-  color: white;
-  padding: 10px 0;
-}
-
-.header {
-  top: 0;
-}
-
-.footer {
-  bottom: 0;
-}
-
-.text-content {
-  text-align: left;
-  color: white;
-  padding: 20px; /* Add padding for spacing */
-  background-color: rgba(0, 0, 0, 0.5); /* Add background color for contrast */
-  position: absolute;
-  top: 50%;
-  right: 0; /* Place the text content to the right */
-  transform: translateY(-50%);
-  width: 40%; /* Adjust the width of the text content */
-}
-
-.text-content h1 {
+h1 {
   font-size: 2rem;
-  margin-bottom: 10px;
+  color:white;
+  font-weight: bolder;
 }
 
-.text-content p {
-  margin: 0;
-  font-size: 1.2rem;
+p {
+  font-size: 1.5rem;
+  font-weight:bolder;
+  color:rgb(168, 163, 163);
 }
 
-button {
-  background-color: #00a0e6;
+.subscribe-button {
+ 
+  background-color: #41a546;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  padding:15px;
+  border-radius: 30px;
+  font-size:1.5rem;
 }
 
-button:hover {
-  background-color: #0077b3;
-}

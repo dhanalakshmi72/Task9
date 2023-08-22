@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/AboutUs.css"; // Import your CSS file
+import "./About.css"; // Import your CSS file
 import features from "./features"; // Import your feature data
 
-const AboutUs = () => {
+const About = () => {
   return (
     <div className="about-us">
       <h2>About Us</h2>
@@ -19,5 +19,5 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;
 
