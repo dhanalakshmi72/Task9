@@ -2,7 +2,6 @@
   position: fixed;
   top:5px;
   right:50px;
-  
 }
 
 .navbar ul {
@@ -24,9 +23,7 @@
 }
 
 span{
-  color:yellow;
-  
-  
+  color:yellow; 
 }
 
 

@@ -61,9 +61,9 @@
   }
   .book-category {
     margin-top: 40px;
-    display: flex; /* Display books in a row */
-    flex-wrap: wrap; /* Wrap books to the next line if needed */
-    justify-content: center; /* Center books horizontally */
-    gap: 20px; /* Gap between books */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
   }
   

@@ -1,7 +1,5 @@
-// SignIn.js
 import React from 'react';
-import '../styles/SignIn.css'; // Import your custom CSS file for styling
-
+import '../styles/SignIn.css'; 
 const SignIn = () => {
   return (
     <div className='background-image'>
@@ -19,5 +17,4 @@ const SignIn = () => {
     </div>
   );
 };
-
 export default SignIn;

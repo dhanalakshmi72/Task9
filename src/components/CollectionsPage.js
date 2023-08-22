@@ -26,8 +26,6 @@ import '../styles/CollectionsPage.css';
                     price: 6.76,
                     image: 'https://rukminim2.flixcart.com/image/850/1000/kzfvzww0/book/1/2/h/ruskinbond-great-stories-for-children-original-imagbg6ggeeuvn65.jpeg?q=90',
                   }
-                // ..
-                // ... other books for Kids Stories ...
               ],
             },
             {
@@ -57,9 +55,7 @@ import '../styles/CollectionsPage.css';
                     price: 9.99,
                     image: 'https://imaginationsoup.net/wp-content/uploads/2021/10/Magic-Tree-House-The-Graphic-NOvel-Dinosaurs-Before-Dark-669x1024.jpeg',
                   }
-                // ..
-                // ..
-                // ... other books for Fiction Books ...
+
               ],
             },
             {
@@ -89,13 +85,11 @@ import '../styles/CollectionsPage.css';
                     price: 12.99,
                     image: 'https://m.media-amazon.com/images/I/51GtJOp1OtL.jpg',
                   },
-                  
-                  
-                  // ... other books for Autobiography ...
+
                 ],
               },
               {
-                name: 'General Knowledge', // New collection name
+                name: 'General Knowledge',
                 books: [
                   {
                     title: 'Learning Edge',
@@ -109,11 +103,11 @@ import '../styles/CollectionsPage.css';
                     price: 13.99,
                     image: 'https://kbazar.s3.amazonaws.com/__sized__/products/quantitative_aptitude_dinesh_khattar-thumbnail-510x510-70.jpg',
                   },
-                  // ... other books for Autobiography ...
+
                 ],
               },
     
-            // ... other collections ...
+
           ];
       
         const initialSelectedBooksMap = collections.reduce((acc, collection) => {

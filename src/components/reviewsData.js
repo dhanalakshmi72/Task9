@@ -1,4 +1,3 @@
-// reviewsData.js
 const reviewsData = [
     {
       name: "John Doe",
@@ -19,7 +18,6 @@ const reviewsData = [
       imageUrl: "https://img.freepik.com/free-photo/young-woman-isolated-white-wall_231208-11508.jpg?w=2000", 
     },
   ];
-  
-  export default reviewsData;
+export default reviewsData;
   
   

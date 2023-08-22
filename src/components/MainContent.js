@@ -1,12 +1,7 @@
-
 import React from 'react';
-
 import '../styles/MainContent.css';
-
-
 function MainContent() {
   return (
-    
     <div className="home-container">
       <div className="content">
         <h1>Open a book,Open Your Mind!</h1>
@@ -18,6 +13,5 @@ function MainContent() {
     </div>
   );
 }
-
 export default MainContent;
 

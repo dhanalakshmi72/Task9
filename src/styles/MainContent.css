@@ -1,9 +1,8 @@
-/* HomePage.css */
 
 .home-container {
   display: flex;
   justify-content: center;
-  align-items: center; /* Vertically center the content */
+  align-items: center; 
   height: 100vh;
   margin-right:80px;
   width: 100vw;
@@ -15,9 +14,9 @@
 }
 .content {
   padding: 20px;
-  max-width: 50%; /* Adjust as needed */
+  max-width: 50%; 
   text-align: center;
-  margin-top:0px; /* Adjust this value to move the content higher */
+  margin-top:0px; 
 }
 h1 {
   font-size: 2rem;

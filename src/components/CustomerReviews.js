@@ -1,4 +1,3 @@
-// CustomerReviews.js
 import React from 'react';
 import '../styles/CustomerReviews.css';
 import reviewsData from './reviewsData';
