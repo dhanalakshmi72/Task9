@@ -1,5 +1,4 @@
 .background-image{
-  
   width:100vw;
   background-image: url('../images/SignInBg.jpg');
   background-position: center;
@@ -52,7 +51,6 @@
   transition: background-color 0.3s ease;
   margin-right: 10%;
 }
-
 .signin-button:hover {
   background-color: #0056b3;
 }

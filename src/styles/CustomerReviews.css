@@ -1,4 +1,3 @@
-/* CustomerReviews.css */
 .customer-background{
   display: flex;
   justify-content: flex-end;
@@ -92,17 +91,16 @@
     transition: color 0.2s;
   }
   
+.star-icon2 {
+  font-size: 1.5rem;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+}
   
-  .star-icon2 {
-    font-size: 1.5rem;
-    color: #ddd;
-    cursor: pointer;
-    transition: color 0.2s;
-  }
-  
-  .star-icon2.filled {
+.star-icon2.filled {
     color: gold;
-  }
+}
   
   
   
