@@ -1,17 +1,13 @@
-/* CollectionsPage.css */
 .collections-background{
-    
     display: flex;
     justify-content: flex-end;
-    align-items: center; /* Vertically center the content */
-  
+    align-items: center; 
     height: 100vh;
-   
     width: 100vw;
     background-repeat: no-repeat;
-      background-size: cover;
-      background-position:top;
-  background-image:url('../images/CollectionsPage.png')
+    background-size: cover;
+    background-position:top;
+    background-image:url('../images/CollectionsPage.png')
 }
 .collections-page {
     display: flex;
