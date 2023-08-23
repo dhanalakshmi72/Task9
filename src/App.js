@@ -1,28 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Header from './components/Header';
-import MainContent from './components/MainContent';
-import SignIn from './components/SignIn';
-import Footer from './components/Footer';
-import CustomerReviews from './components/CustomerReviews';
-import CollectionsPage from './components/CollectionsPage';
+import Section from './components/Section';
+import './styles.css';
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/customer-reviews" element={<CustomerReviews />} />
-          <Route path="/signin" element={<SignIn />} />
-          <Route path="/" element={<MainContent />} />
-          <Route path="/collections" element={<CollectionsPage />} />
-        </Routes>
-       <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <Header />
+      <Section id="home" title="Home" />
+      <br /> {/* Line break after the Home section */}
+      <Section id="careers" title="Careers" />
+      <br /> {/* Line break after the Careers section */}
+      <Section id="about" title="About" />
+      <br /> {/* Line break after the About section */}
+      <Section id="contact" title="Contact" />
+      {/* No line break after the Contact section */}
+    </div>
   );
-}
+};
 
 export default App;
-

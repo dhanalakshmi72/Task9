@@ -1,21 +1,31 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  
-import '../styles/Header.css';
-function Header() {
+import '../styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+const Header = () => {
+  const handleNavClick = (event, targetId) => {
+    event.preventDefault();
+    document.querySelector(targetId).scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <header>
-      <nav className="navbar">
-      <div className="nav-content">
-        <ul className="nav-links">
-          <li className="first-child">Books<span>Cart</span></li>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/collections">View Collections</Link></li>
-          <li><Link to="/customer-reviews">Customer Reviews</Link></li>
-          <li><Link to="/signin">Sign In</Link></li> 
+      <div className="logo text-center ">
+        <img src="https://w7.pngwing.com/pngs/732/34/png-transparent-logo-amazon-com-brand-flipkart-others-text-orange-logo-thumbnail.png" alt='logo' width='60px' height='40px'></img>
+        Amazon</div>
+      <nav>
+        <ul>
+          <li><a href="#home" onClick={(e) => handleNavClick(e, '#home')}>Home</a></li>
+          <li><a href="#careers" onClick={(e) => handleNavClick(e, '#careers')}>Careers</a></li>
+          <li><a href="#about" onClick={(e) => handleNavClick(e, '#about')}>About</a></li>
+          <li><a href="#contact" onClick={(e) => handleNavClick(e, '#contact')}>Contact</a></li>
         </ul>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
   );
-}
+};
+
 export default Header;
+
+
